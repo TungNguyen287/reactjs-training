@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import TodoFeture from './features/Todo';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Bryan Nguyen training react js
         </p>
+        <TodoFeture/>
       </header>
     </div>
   );
